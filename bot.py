@@ -15,10 +15,10 @@ import pickle
 import time
 import random
 
-api_key = "95e0243316c28e841ad4421e00eeb3cc"
+api_key = "key"
 moduledir = "{0}/modules/".format(os.getcwd())
-server = MinecraftServer.lookup("198.50.193.198")
-TOKEN = '103657961:AAH4j7e--rba3f66mLpaDywtNltpuS5R9Aw'
+server = MinecraftServer.lookup("ip")
+TOKEN = 'TOKEN'
 forecast_info = {}
 modules = {}
 dp = ""
